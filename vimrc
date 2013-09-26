@@ -14,9 +14,6 @@ if v:progname =~? "evim"
   finish
 endif
 
-"let g:molokai_original=1
-"let g:rehash256 = 1
-
 " 非兼容模式
 set nocompatible
 
@@ -156,7 +153,7 @@ set sessionoptions+=resize
 
 if has("gui_running")
 	"set background=dark
-	"colorscheme solarized
+	"desertEx, solarized
 	colorscheme molokai " 背景颜色
 	"colorscheme rainbow_neon 		" 背景颜色
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 14	"gvim字体设置
@@ -264,7 +261,7 @@ map ca :Calendar<cr>
 map <S-Space> :<C-Space>
 
 " vimwiki
-let g:vimwiki_list = [{'path': '~/Wiki/wiki/', 'path_html': '~/Wiki/', 'auto_export': 1}]
+let g:vimwiki_list = [{'path': '~/wiki/wiki/', 'path_html': '~/wiki/', 'auto_export': 1}]
 " 转化为Html文件
 map <S-F4> :Vimwiki2HTML<cr>
 
@@ -275,3 +272,4 @@ hi VimwikiHeader3 guifg=#0000FF
 hi VimwikiHeader4 guifg=#FF00FF
 hi VimwikiHeader5 guifg=#00FFFF
 hi VimwikiHeader6 guifg=#FFFF00
+
