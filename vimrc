@@ -156,14 +156,16 @@ if has("gui_running")
 	"desertEx, solarized
 	colorscheme molokai " 背景颜色
 	"colorscheme rainbow_neon 		" 背景颜色
-	set guifont=Bitstream\ Vera\ Sans\ Mono\ 14	"gvim字体设置
+	"set guifont="Bitstream Vera Sans Mono":h18	"gvim字体设置
+	"set guifont=Menlo:h15	"gvim字体设置
+	set guifont=Monaco:h15	"gvim字体设置
 	"<F2>显隐状态栏
 	set guioptions=aegimtT
 	set guioptions-=r
 	set guioptions-=l
 	set guioptions-=m
 	set guioptions-=T
-	set lines=20 columns=80
+	set lines=30 columns=100
 	map <silent> <F2> :if &guioptions =~# 'T' <Bar>
 				\ set guioptions-=T <Bar>
 				\ set guioptions-=m <Bar>
@@ -228,7 +230,7 @@ map <C-l> :tabn<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " cscope
 if has("cscope")
-	set csprg=/usr/bin/cscope
+	set csprg=/usr/local/bin/cscope
 	set cst
 	set csto=0
 	set nocsverb

@@ -1,11 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/spd-smmei/code/ui-system/gtk+-2.12.12/examples/statusbar'
-let g:netrw_dirhist_2='/home/spd-smmei/project/ebook/jl10/workspace/ebook/.git'
-let g:netrw_dirhist_3='/home/spd-smmei/project/ebook/jl10/workspace/ebook/src/widget/common-key-new/elements'
-let g:netrw_dirhist_4='/home/spd-smmei/code/6.828/lab/inc'
-let g:netrw_dirhist_5='/home/spd-smmei/Documents/Gsl/DM30/i.mx233/ltib/rpm/BUILD/imx-bootlets-src-10.05.02/linux_prep/include'
-let g:netrw_dirhist_6='/home/spd-smmei/Documents/Gsl/DM30/i.mx233/ltib/imx-bootlets-src-10.05.02/linux_prep/output-target'
-let g:netrw_dirhist_7='/dev/shm'
-let g:netrw_dirhist_8='/home/spd-smmei/develop/dm30/dm100/bootloader/u-boot-2009.08/drivers/video'
-let g:netrw_dirhist_9='/home/god/Projects/backup/code/x86/linux-0.12/mm'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Volumes/OpenWrt/openwrt-14.07/package/network/services'
+let g:netrw_dirhist_2='/Users/sam/Documents/smmei.github.io/_posts'
