@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Volumes/OpenWrt/openwrt-14.07/package/network/services'
-let g:netrw_dirhist_2='/Users/sam/Documents/smmei.github.io/_posts'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/sam/Projects/nfs/log'
+let g:netrw_dirhist_2='/Users/sam/Projects/mt7620/test/openwrt-packages-1/kernel/mt7610/files/mt7610'
+let g:netrw_dirhist_3='/Users/sam/log'
+let g:netrw_dirhist_4='/Users/sam/Projects/router/test/packages/libs/alsa-lib'
+let g:netrw_dirhist_5='/Users/sam/log'
