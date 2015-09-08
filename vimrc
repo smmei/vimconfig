@@ -68,7 +68,7 @@ set wrap
 "在GVIM时不会出现这种情况
 "在粘贴之前输入 :set paste 关闭所有自动缩进
 "粘贴后 :set nopaste 重新打开原有的自动缩进设置
-set cindent shiftwidth=8
+set autoindent cindent shiftwidth=8
 
 "设定C/C++风格自动缩进的选项
 " :0 switch语句之下的case语句缩进0个空格
@@ -80,10 +80,6 @@ set cindent shiftwidth=8
 set cino=:0,g0,t0,+0,(0
 
 set smartindent 	"c 程序自动缩进
-
-"打开普通文件类型的自动缩进，不如cindent智能，
-"但可以为编辑非C/C++文件提供一定的帮助
-set autoindent shiftwidth=8
 
 "tab4个空格
 set tabstop=8

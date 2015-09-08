@@ -31,37 +31,17 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description == start ==
 /*
- * ==========================================================================
- *
- *       Filename:  |FILENAME|
- *
- *    Description:  <CURSOR>
- *
- *        Version:  0.01
- *        Created:  |DATE| |TIME|
- *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *        Company:  |COMPANY|
- *
- * ==========================================================================
+ * |FILENAME|, |DATE| |TIME|
+ * |AUTHOR| |EMAIL|
  */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-header == start ==
 /*
- * --------------------------------------------------------------------------
- *
- *       Filename:  |FILENAME|
- *
- *    Description:  <CURSOR>
- *
- *        Version:  0.01
- *        Created:  |DATE| |TIME|
- *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *        Company:  |COMPANY|
- * --------------------------------------------------------------------------
+ * |FILENAME|, |DATE| |TIME|
+ * |AUTHOR| |EMAIL|
  */
+
 #ifndef |FILENAME|
 #define |FILENAME|
 
